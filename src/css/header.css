@@ -1,0 +1,37 @@
+/* Header */
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.header-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1.4rem 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navegacao {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  align-items: center;
+}
+
+.header-navegacao a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 5.3rem 0rem;
+}
+
+.header-navegacao a:hover {
+  color: #109bc5;
+  border-bottom: #109bc5 solid 2px;
+}

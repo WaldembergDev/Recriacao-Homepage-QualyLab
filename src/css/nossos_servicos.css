@@ -1,0 +1,45 @@
+/* Nossos serviços */
+.nossos_servicos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 6rem;
+}
+.nossos_servicos-texto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.nossos_servicos-servicos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.servicos-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.servicos-item h3 {
+  text-transform: uppercase;
+  color: #109bc5;
+}
+
+.servicos-item img {
+  max-width: 100%;
+}
+
+.servicos-item a {
+  align-self: center;
+  background-color: #f7f9f9;
+  padding: 1rem 3rem;
+  transition: background-color 0.3s;
+}
+
+.servicos-item a:hover {
+  background-color: blue; /* A cor que aparecerá ao passar o mouse */
+  color: white; /* Opcional: mude a cor do texto também */
+}

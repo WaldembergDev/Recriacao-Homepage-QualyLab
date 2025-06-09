@@ -1,0 +1,24 @@
+/* Acreditações e parceiros */
+
+.acreditacoes_parceiros {
+  background-color: #f7f9f9;
+}
+
+.acreditacoes_parceiros-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 6rem 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.acreditacoes_parceiros-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.acreditacoes_parceiros-item img {
+  align-self: center;
+}

@@ -1,0 +1,51 @@
+/* footer */
+.footer {
+  background-color: #003a66;
+}
+
+.footer p {
+  color: #d2edfa;
+}
+
+.footer h3 {
+  text-transform: uppercase;
+}
+
+.footer-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 6rem 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #d2edfa;
+  gap: 3rem;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-formulario input {
+  border-radius: 0.4rem;
+  padding: 1rem;
+}
+
+.footer-formulario input[type="submit"] {
+  background-color: #0e6e0e;
+  color: #fff;
+  align-self: flex-start;
+}
+
+.footer-direitos {
+  background-color: #01263f;
+  text-align: center;
+  padding: 2rem;
+}

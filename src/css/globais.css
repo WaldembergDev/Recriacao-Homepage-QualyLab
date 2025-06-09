@@ -1,0 +1,28 @@
+/* Globais */
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "open sans", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  height: 1400px;
+  padding-top: 12rem;
+  line-height: 1.4;
+}
+
+a,
+p {
+  color: #666666;
+}
+
+h2 {
+  font-size: 2.4rem;
+}

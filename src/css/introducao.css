@@ -1,0 +1,48 @@
+/* Introdução */
+.introducao {
+  background-color: #f7f9f9;
+}
+
+.introducao-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 6rem 6rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 8rem;
+}
+
+.bem-vindo,
+.servicos-online {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.servicos-online ul {
+  list-style: none;
+}
+
+.servicos-online a {
+  text-decoration: none;
+  color: #109bc5;
+  font-size: 2.6rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.servicos-online a:hover {
+  text-decoration: underline;
+  color: #88bbc8;
+}
+
+.servicos-online a::before {
+  content: "►";
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: 5px;
+  z-index: 1;
+  font-size: 1.5rem;
+  color: #333333;
+}
