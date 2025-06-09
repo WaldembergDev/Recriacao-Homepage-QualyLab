@@ -22,3 +22,10 @@
 .acreditacoes_parceiros-item img {
   align-self: center;
 }
+
+@media (max-width: 800px) {
+  .acreditacoes_parceiros-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

@@ -3,6 +3,8 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 6rem 6rem;
+  display: grid;
+  gap: 2rem;
 }
 .nossos_servicos-texto {
   display: flex;
@@ -42,4 +44,10 @@
 .servicos-item a:hover {
   background-color: blue; /* A cor que aparecerá ao passar o mouse */
   color: white; /* Opcional: mude a cor do texto também */
+}
+
+@media (max-width: 800px) {
+  .nossos_servicos-servicos {
+    grid-template-columns: 1fr 1fr;
+  }
 }

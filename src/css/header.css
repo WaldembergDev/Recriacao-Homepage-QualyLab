@@ -21,6 +21,7 @@
 .header-container img {
   max-width: 100%;
   display: block;
+  align-self: center;
 }
 
 .header-navegacao {
@@ -28,6 +29,8 @@
   gap: 1.5rem;
   list-style: none;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header-navegacao a {
@@ -39,4 +42,17 @@
 .header-navegacao a:hover {
   color: #109bc5;
   border-bottom: #109bc5 solid 2px;
+}
+
+@media (max-width: 800px) {
+  .header {
+    position: static;
+  }
+  .header-container {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .header-navegacao a:hover {
+    border-bottom: none;
+  }
 }
