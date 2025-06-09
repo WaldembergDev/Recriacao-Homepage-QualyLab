@@ -18,6 +18,11 @@
   justify-content: space-between;
 }
 
+.header-container img {
+  max-width: 100%;
+  display: block;
+}
+
 .header-navegacao {
   display: flex;
   gap: 1.5rem;
